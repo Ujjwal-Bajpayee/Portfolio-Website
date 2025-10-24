@@ -153,13 +153,6 @@ export const latest_news = [
   },
 ];
 
-type Company = {
-  id: number;
-  name: string;
-  img?: string; // ✅ optional
-  nameImg?: string; // ✅ optional
-};
-
 export const companies = [
   {
     id: 1,
